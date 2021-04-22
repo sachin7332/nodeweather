@@ -7,7 +7,8 @@
     "express": "^4.17.1",
     "hbs": "^4.1.1",
     "mongoose": "^5.11.14",
-    "validator": "^13.5.2"
+    "validator": "^13.5.2" ,
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {},
   "scripts": {
