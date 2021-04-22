@@ -13,7 +13,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/exapp.js -e hbs,js"
+    "start": "node src/exapp.js -e hbs,js"
   },
   "author": "SD TECH",
   "license": "ISC"
