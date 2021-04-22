@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@200;300;400;900&display=swap');
+
+$color1: #1e272e;
+$color2: #0097e6;
+
+
+*
+{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Piazzolla', serif;
+
+ 
+ 
+}
+
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer
+{
+ 
+    margin-top: auto;
+    height: 4rem;
+    background-color: $color1;
+}
+
+.foot
+{
+    line-height: 4rem;
+    font-size: 1.7rem;
+    color: rgb(233, 233, 233)
+
+}
+
+.navstyle
+{
+    font-size: 2rem;
+    background-color:#3c4042;
+    
+}
+
+
+.navstyle a
+{
+   
+    color: rgb(233, 233, 233);
+    margin: 1rem 0;
+    margin-left: 1rem;
+    transition: all 0.1s ease-in;
+    
+}
+
+
+.navstyle a:hover
+{
+   
+    color: $color2;
+  
+    
+    
+}
+
+
+.navstyle a:active
+{
+   
+    color: $color2;
+  
+    
+    
+}
+
+button.navbar-toggler
+{
+    background-color: rgb(233, 233, 233)!important;
+}
+button.navbar-toggler-icon
+{
+color: white;
+}
+
+.wcc
+{
+    font-size: 2rem;
+}
+
+
+.ff{
+    color: #00D8FF;
+    animation: round 2s linear infinite;
+}
+
+
+
+@keyframes round {
+
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+
+.ldiv
+{
+    height: 70vh;
+
+   
+   
+}
+
+
+.ldiv img
+{
+overflow: hidden;  
+   
+}
+
+
+
+.ldiv  h1
+{
+   
+    font-size: 3rem;
+    font-weight: 400;
+    
+   
+}
+
+
+.ldiv  h3
+{
+   
+    font-size: 2rem;
+    font-weight: 200;
+    
+   
+}
+.sph1
+{
+    color: $color2;
+}
+
+
+
+
+.btncls
+{
+    outline: none;
+    height: 3.5rem!important;
+    padding: 0 1rem!important;
+    background-color: rgb(223, 223, 223);   
+    border-radius: 2rem;
+    height: 2.5rem;
+    text-transform: uppercase ;
+    color: rgb(87, 87, 87);
+    box-shadow: 0 0.4rem 0.4rem 0.1rem rgb(65, 65, 65);
+    font-size: 1rem;
+    word-spacing: 0.4rem;
+    
+}
+
+.cmen{
+    filter: drop-shadow(0 0.4rem 0.4rem  rgb(65, 65, 65));
+    height: 10rem;
+}
+
+.btncls:hover
+{
+    color:$color2 ;
+}
+
+
+.car
+{
+    height: 30rem;
+    width: 40rem;
+    opacity: 80%;
+    border-radius: 4rem;
+    filter: drop-shadow(.5rem 1.5rem 1rem rgb(73, 73, 73));
+}
+
+.ddf
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 8rem;
+   
+}
+
+
+
+.ddf1
+{
+    display: flex;
+   
+
+    align-items: center;
+  
+    
+
+}
+
+.ere
+{
+    height: 80vh;
+    width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ebtn
+{
+    
+    outline: none;
+    height: 4.4rem!important;
+    padding: 0 1.8rem!important;
+    background-color: rgb(255, 97, 97);   
+    border-radius: 2rem;
+    height: 2.5rem;
+    text-transform: uppercase ;
+    color: rgb(255, 255, 255);
+ 
+    font-size: 1.5rem;
+    word-spacing: 0.4rem;
+    margin-top: 2rem;
+
+}
+
+.btn
+{outline: none;}
+
+
+
+
+.whomehead
+{
+    height: 80vh;
+ 
+}
+
+.wdiv1
+{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+   
+    margin-top: 5rem;
+    
+}
+
+.wser
+{
+
+    background-color: rgb(45, 64, 94);
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+    margin: auto;
+    height: 6rem;
+    width: 50rem;
+    border-radius: 3rem;
+    outline: none;
+    position: relative;
+
+}
+
+.wser::placeholder
+
+{
+    color: white;
+}
+
+.wbtn
+{
+    position:absolute;
+    top:12.8rem;
+    left: 83.7rem;
+    outline: none;
+    height: 4.4rem!important;
+    padding: 0 1.8rem!important;
+    background-color: $color2;   
+    border-radius: 2rem;
+    height: 2.5rem;
+    text-transform: uppercase ;
+    color: rgb(255, 255, 255);
+ 
+    font-size: 1.2rem;
+    word-spacing: 0.4rem;
+  
+
+
+}
+
+.wbtn:hover
+{
+    background-color: white;
+}
+
+
+.wdiv2
+{
+    height: 30rem;
+background-image: url(https://cdn5.f-cdn.com/contestentries/1465388/27319887/5c4370898fa12_thumb900.jpg);
+background-size: 100% 100%;
+    width: 27rem;
+    margin-top: 6rem;
+    border-radius: 1.5rem;
+    color: white;
+    overflow: hidden;
+    
+}
+
+.winside1
+{
+    display: flex;
+    justify-content:space-between;
+    padding: 1rem 1rem;
+    background-color: rgba(65, 65, 65 , 0.3);
+    font-size: 1.4rem;
+  
+
+}
+
+.winside2
+{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 12rem;
+    font-size: 8rem;
+ 
+  
+
+
+
+}
+
+button.navbar-toggler
+.navbar-toggler-icon
+{
+    background-color: grey;
+}
+
+
+.conhead
+{
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.cc{
+
+    font-size: 2rem;
+}
+
+.cc input{
+    font-size: 1.5rem;
+}
+
+.hb
+{
+    margin-top: 2rem;
+    margin-left: 7rem;
+}
+
+
+.texa
+{
+    font-size: 1.5rem;
+    
+}
+
+
+
+.load1
+{
+    position: fixed;
+background-color: rgb(250, 250, 250);
+transition: opacity 2.3s linear;
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: space-around;
+align-items: center;
+z-index: 1800;
+}
+
+.load2
+{
+    width: 10%;
+    height: 20%;
+    display: grid;
+    place-items: center;
+   
+    background-color:rgb(213, 223, 197);
+    position: relative;
+
+}
+
+.load1 span{
+    position:absolute;
+    width: 25%;
+    height: 25%;
+    background-color: rgb(34, 33, 30);
+    box-shadow: 1px 1px 1px 2px black;
+    animation: lodd 1s linear infinite;
+    top: 0;
+    left: 0;
+    margin: 15px;
+}
+
+@keyframes lodd
+{
+  
+
+0%{  top: 0;
+    left: 0;  }
+
+    
+12.5%{  top: 0;
+    left: 50%;  }
+
+    
+25%{  top: 0;
+    left: 50%;  }
+
+    
+37.5%{  top: 50%;
+    left: 50%;  }
+
+    
+50%{  top: 50%;
+    left: 50%;  }
+
+    
+62.5%{  top: 50%;
+    left: 0;  }
+
+    
+75%{  top: 50%;
+    left: 0;  }
+
+    
+87.5%{  top: 0;
+    left: 0;  }
+
+100%{   top: 0;
+    left: 0;}
+
+
+}
+
+.load1 span:nth-child(2)
+{
+    animation-delay: 0.33s;
+}
+.load1 span:nth-child(3)
+{
+    animation-delay: 0.66s;
+}
+

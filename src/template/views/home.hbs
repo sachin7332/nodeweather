@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{>link}}
+    
+    <title>Weather App</title>
+</head>
+<body onload="myFunc()">
+   {{>navbar}}
+
+
+
+      <div id="loading" class="load1">
+            <div class="load2">
+                <span></span>
+                <span class="spcc1"></span>
+                <span class="spcc2"></span>
+              
+            </div>
+            
+    
+        </div>
+
+
+
+
+
+
+   
+   <div class="container-fluid homehead">
+       <div class="row">
+           <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+             {{!-- left --}}
+            <div class="col-md-6 col-12   lldiv">
+                <div class="ldiv d-flex justify-content-center align-items-start  flex-column">
+                    <h3 class="text-secondary">Welcome to weather app</h3>
+                    <h1 class="text-capitalize mt-4">get the latest <span class="sph1">weather</span> info of your</h1>
+                    <h1> city</h1>
+                   <a href="/weather"> <button class="btn btncls mt-5 ">Check Now</button></a>
+                    
+                                    </div>
+
+            </div>
+
+
+                  {{!-- right --}}
+            <div class="col-md-6 col-12">
+                <div class="ldiv    ddf ">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.timeanddate.com/scripts/weather_og.php?h1=Weather&h2=Local%20Weather%20Around%20the%20World" class=" w-100 car" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.climateandweather.net/images/new-globe-logo.png" class=" w-100 car" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://st.depositphotos.com/2119479/2894/v/950/depositphotos_28941271-stock-illustration-world-weather-forecast-map-and.jpg" class=" w-100 car" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+ 
+</div>
+            
+            
+            </div>
+            
+            </div>
+
+            </div>
+
+
+           </div>
+       </div>
+   </div>
+
+   
+
+     {{>footer}}
+
+     <script>
+       let preloader = document.getElementById("loading");
+
+     
+ 
+
+     setTimeout(  function myFunc()
+       {
+
+           
+         preloader.style.display = "none";
+         
+    preloader.style.opacity = "50%";
+ 
+
+       }, 2000);
+      
+
+       myFunc();
+
+     
+     </script>
+
+    
+</body>
+</html>

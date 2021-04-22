@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{>link}}
+    <title>Document</title>
+</head>
+<body>
+    {{>navbar}}
+
+    
+<div class="mt-1 text-center   ">
+    <h1 class="conhead mt-4">Contact</h1>
+    <hr class="w-25 hll mx-auto" />
+</div>
+
+   
+<div class="container-fluid  ">
+<div class="row">
+    <div class="col-10 mx-auto   mt-3">
+      <div class="row ">
+        <div class="col-6 mx-auto">
+          <form action="/contact" method="POST">
+
+        <div class="cc">
+    <div class="mb-3 w-75 mx-auto">
+  <label for="Input1" class="form-label">Full Name</label>
+  <input required  name="name" type="text" class="form-control" id="Input1" placeholder="Enter Name " />
+  <label for="Input1" class="form-label mt-4">Contact No</label>
+  <input  name="no" type="text" class="form-control" id="Input2" placeholder="Enter No " />
+  <label for="Input1" class="form-label mt-4">Email address</label>
+  <input autocomplete="off" name="email" type="email" class="form-control" id="Input3" placeholder="name@example.com " />
+</div>
+<div class="mb-3  w-75 mx-auto">
+  <label for="Textarea1" class="form-label mt-4">Description</label>
+  <textarea class="form-control texa" name="message" id="Textarea1" rows="3"></textarea>
+</div>
+<input class="btn btn-primary text-center hb mb-5 " type="submit" value="Submit"></input>
+
+
+
+</div>
+</form>
+
+
+    </div>
+
+    </div>
+      </div>
+
+</div>
+</div>
+
+     {{>footer}}
+    
+</body>
+</html>

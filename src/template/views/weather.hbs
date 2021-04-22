@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>link}}
+    
+    
+      <title>Weather App</title>
+</head>
+<body>
+   {{>navbar}}
+
+
+   <div class="container-fluid whomehead">
+       <div class="row">
+           <div class="col-md-10 col-12 mx-auto">
+
+               <div class="wdiv1 mb-5">
+                  <form id="onsub">
+                       <input type="search" placeholder="Enter City Name" class="wser" value=" " id="wwinp"/>
+                <span>   <button class="btn wbtn" id="btn1">Search</button></span>
+               </div>
+                  </form>
+
+               <div class="wdiv2 mx-auto ">
+               <div class="winside1">
+                   <p id="wday">Day</p>
+                   <p id="wdate">Date</p>
+               </div>
+               <div class="">
+                
+                   <h3 class="text-center mt-4 text-dark" id="notf"></h3>  
+
+                      <div class="d-flex  ">
+               <h2 class="wh1 ms-5 mt-3" id="wcity">  </h2>
+               <h2  id="wcountry" class="wh1 mt-3 text-info"></h2>
+
+             
+              </div>
+
+                <div class="winside2 main_layer data_hide ">
+                   <h1 class="wh2" ><span id="wtemp"></span><sup id="wdeg"></sup><span id="wtc"></span></h1>
+                   <h1 id="wcloud"></h1>
+                   {{!-- <i class="fas fa-cloud"></i> --}}
+               </div>
+               </div>
+               </div>
+
+
+
+
+                 </div>  
+            </div>
+
+            </div>
+
+
+
+
+
+
+
+            
+
+     {{>footer}}
+
+
+<script src="js/main.js"></script>
+    
+</body>
+</html>
